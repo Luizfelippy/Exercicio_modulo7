@@ -23,7 +23,7 @@ form.addEventListener('submit', function(e) {
 
     }else {
         const containerMesagemErro = document.querySelector('.error-message');
-        containerMesagemErro.innerHTML = mensagemErro
+        containerMesagemErro.innerHTML = mensagemErro;
         containerMesagemErro.style.display = 'block';
         
         campoA.value = '';
